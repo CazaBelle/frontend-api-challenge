@@ -5,9 +5,12 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+
+
 import Home from "./Home";
-import Signup from "./Signup";
+import Signup from "./Containers/Signup";
 import Login from "./Login";
+
  
 class App extends Component {
   render() {
@@ -19,7 +22,7 @@ class App extends Component {
           
             <li><NavLink to="/signup">Signup</NavLink></li>
             <li><NavLink to="/login">Login</NavLink></li>
-            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/login">Home</NavLink></li>
           </ul>
           <div className="content">
              
